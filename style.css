@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=IBM+Plex+Sans:ital,wght@1,200&family=Oswald:wght@200&family=Poppins:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Heebo", sans-serif;
+}
+
+/* --------------------- Navigation Part FIRST SECTION -----------------------*/
+.conatiner {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+header {
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 2rem;
+}
+a:hover {
+  color: orangered;
+}
+.logo::first-letter {
+  color: peru;
+}
+
+/* -----------------------------------SLIDER PART  SECTION SECOND-------------------------- */
+.swiper-slide .box_img img {
+  height: 400px;
+  width: 100%;
+}
+
+.swiper-button-next {
+  color: black;
+}
+
+.Home_Para {
+  font-size: 3vw;
+  text-align: center;
+}
+#Heading_Part .para {
+  text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
+  font-family: "Heebo", sans-serif;
+  opacity: 300;
+}
+.creative_solution {
+  align-items: center;
+  margin: 0 auto;
+  padding: 4 rem;
+  display: flex;
+  gap: 9rem;
+  margin: 60px;
+}
+.creative_solution .font_one .fa-sharp {
+  text-align: center;
+  padding: 3rem;
+}
+
+.creative_solution .font_two i {
+  text-align: center;
+  padding: 3rem;
+}
+.creative_solution .font_three i {
+  text-align: center;
+  padding: 3rem;
+}
+
+.creative_solution .font_four i {
+  text-align: center;
+  padding: 3rem;
+}
+.creative_solution .font {
+  gap: 2rem;
+}
+
+/* -------------------------------Third Section Service Section----------------------- */
+.headingSection .h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.headingSection .para {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.font .fa-solid .para1 {
+  font-size: 10px;
+  font-family: "" Heebo ", sans-serif";
+}
+
+.font .imageclass {
+  display: flex;
+  flex-direction: row;
+}
+
+.image_section img {
+  background-position: center;
+  object-position: center;
+  object-fit: contain;
+  margin-left: 50px;
+}
+
+.optimization .container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  gap: 30px;
+  padding: 3rem;
+  margin: 100px auto;
+  width: 75%;
+}
+
+.optimization .imageclass img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 75%;
+  float: left;
+}
+/* Section Fourth BLOG */
+.information {
+  width: 100%;
+  height: 350px;
+  background-color: orangered;
+  padding: 2rem;
+}
+
+.container_fluid .heading {
+  text-align: center;
+  margin-top: 3rem;
+  color: aliceblue;
+}
+
+.container_fluid .heading2 {
+  text-align: center;
+  margin-top: 3rem;
+  color: aliceblue;
+  font-size: medium;
+}
+
+.information .button_class {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  text-align: center;
+  margin-left: 400px;
+}
+
+.information .button_class .btn1 {
+  border: none;
+  width: 180px;
+  height: 10px;
+  padding: 2rem;
+  border-radius: 20%;
+  text-align: center;
+}
+
+.information .btn2 {
+  border: none;
+  width: 180px;
+  height: 10px;
+  padding: 2rem;
+  border-radius: 20%;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  margin: 15px auto;
+  padding: 3rem;
+}
+.wrapper img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+}
+
+/* SECTION FIFTH PORTFOLIO    */
+.office .para4 {
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.office .Heading5 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#portfolio .employee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 2px;
+  text-align: center;
+}
+
+#portfolio .employee .employee_image .employee_name {
+  text-align: center;
+}
+
+#portfolio .employee .employee_image img {
+  border-radius: 20px;
+}
+
+#portfolio {
+  height: 550px;
+  width: 100%;
+}
+
+#portfolio .office {
+  padding: 3rem;
+}
+/*  SECTION SIXTH CONTACT */
+.contact_container {
+  height: 400px;
+  width: 100%;
+  background-color: #696969;
+  color: white;
+  margin-left: 40px;
+  padding: 2rem;
+  gap: 15px;
+  text-align: left;
+}
+
+.contact_container .first_contact_section {
+  padding: 2rem;
+}
+.contact_container.first_contact_section .first_para {
+  line-height: 28px;
+}
+.contact_container .recent_post {
+  padding: 2rem;
+}
+.first_contact_section h3 {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.recent_post h3 {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.recent_post .recent_para {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+}
+
+.recent_post .recent_para1 {
+  padding: 10px;
+}
+.contact_info h3 {
+  width: fit-content;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.contact_container .contact_info {
+  padding: 2rem;
+}
+
+#contact .contact_container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.contact_info .contact_first_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact_first_icon .para_first {
+  border-bottom: 1px solid #fff;
+}
+
+.conatct_second_icon .conatct_second_para_ {
+  border-bottom: 1px solid #fff;
+}
+.font_icons i {
+  gap: 20px;
+}
+/* FOOTER PART */
+.footer_container {
+  width: 100%;
+  background-color: black;
+  color: azure;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  list-style-type: none;
+}
